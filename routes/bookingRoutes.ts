@@ -1,4 +1,5 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
+
 const router = express.Router();
 
 //* Sample Data
@@ -6,37 +7,31 @@ const bookings = require("../data/bookings.json");
 const rooms = require("../data/rooms.json");
 
 // Create a booking
-router.post('/', (req, res) => {
-    // TODO: Create a new booking with the provided details
+router.post('/', (req: Request, res: Response) => {
     res.send('New booking created');
 });
 
 // Check room availability
-router.get('/check-availability/:roomId', (req, res) => {
+router.get('/check-availability/:roomId', (req: Request, res: Response) => {
     const { roomId } = req.params;
-    // TODO: Check if a room is available for the specified date range
-    // TODO: Fetch the availability details from your data source (JSON file)
     res.send(`Check availability for room with ID: ${roomId}`);
 });
 
 // Get a specific booking
-router.get('/:bookingId', (req, res) => {
+router.get('/:bookingId', (req: Request, res: Response) => {
     const { bookingId } = req.params;
-    // TODO: Fetch details of a specific booking based on bookingId from params
     res.send(`Details of booking with ID: ${bookingId}`);
 });
 
 // Update a booking
-router.put('/:bookingId', (req, res) => {
+router.put('/:bookingId', (req: Request, res: Response) => {
     const { bookingId } = req.params;
-    // TODO: Update a booking based on bookingId from params
     res.send(`Booking with ID: ${bookingId} updated`);
 });
 
 // Cancel a booking
-router.delete('/:bookingId', (req, res) => {
+router.delete('/:bookingId', (req: Request, res: Response) => {
     const { bookingId } = req.params;
-    // TODO: Cancel a booking based on bookingId from params
     res.send(`Booking with ID: ${bookingId} cancelled`);
 });
 
