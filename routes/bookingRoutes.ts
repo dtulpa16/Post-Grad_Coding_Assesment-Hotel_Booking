@@ -6,6 +6,11 @@ const router = express.Router();
 const bookings = require("../data/bookings.json");
 const rooms = require("../data/rooms.json");
 
+// Get all bookings
+router.get('/', (req: Request, res: Response) => {
+    res.send('All Bookings');
+});
+
 // Create a booking
 router.post('/', (req: Request, res: Response) => {
     res.send('New booking created');
