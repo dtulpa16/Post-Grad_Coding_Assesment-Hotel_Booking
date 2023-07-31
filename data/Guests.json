@@ -1,0 +1,23 @@
+[
+    {
+        "guest_id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "+1234567890",
+        "past_bookings": []
+    },
+    {
+        "guest_id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "phone": "+1234567891",
+        "past_bookings": [101]
+    },
+    {
+        "guest_id": 3,
+        "name": "Robert Brown",
+        "email": "robert@example.com",
+        "phone": "+1234567892",
+        "past_bookings": []
+    }
+]

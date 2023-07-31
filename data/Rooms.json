@@ -1,0 +1,26 @@
+[
+    {
+        "room_id": 101,
+        "type": "Deluxe",
+        "view": "Sea view",
+        "price_per_night": 150,
+        "facilities": ["WiFi", "TV", "Air Conditioning"],
+        "is_booked": false
+    },
+    {
+        "room_id": 102,
+        "type": "Standard",
+        "view": "Garden view",
+        "price_per_night": 100,
+        "facilities": ["WiFi", "TV"],
+        "is_booked": false
+    },
+    {
+        "room_id": 103,
+        "type": "Suite",
+        "view": "City view",
+        "price_per_night": 250,
+        "facilities": ["WiFi", "TV", "Air Conditioning", "Mini Bar", "Balcony"],
+        "is_booked": false
+    }
+]
