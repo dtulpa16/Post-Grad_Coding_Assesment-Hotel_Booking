@@ -1,4 +1,4 @@
-import express, { Request, Response, NextFunction } from 'express';
+import express, { Request, Response } from 'express';
 import cors from 'cors';
 import roomRoutes from './routes/roomRoutes';
 import guestRoutes from './routes/guestRoutes';
@@ -15,6 +15,12 @@ app.use(express.json());
 app.use('/api/rooms', roomRoutes);
 app.use('/api/guests', guestRoutes);
 app.use('/api/bookings', bookingRoutes);
+
+
+// Health Check Endpoint
+app.get('/health', (req: Request, res: Response) => {
+    res.status(200).send('OK');
+});
 
 // Server start
 app.listen(PORT, () => {

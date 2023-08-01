@@ -5,7 +5,7 @@
         "guestId": 1,
         "checkInDate": "2023-08-01",
         "checkOutDate": "2023-08-05",
-        "price": 400.00
+        "price": 600.00
     },
     {
         "id": 2,
@@ -14,5 +14,69 @@
         "checkInDate": "2023-08-03",
         "checkOutDate": "2023-08-08",
         "price": 500.00
+    },
+    {
+        "id": 3,
+        "roomId": 103,
+        "guestId": 3,
+        "checkInDate": "2023-08-10",
+        "checkOutDate": "2023-08-15",
+        "price": 1250.00
+    },
+    {
+        "id": 4,
+        "roomId": 104,
+        "guestId": 4,
+        "checkInDate": "2023-08-07",
+        "checkOutDate": "2023-08-10",
+        "price": 450.00
+    },
+    {
+        "id": 5,
+        "roomId": 105,
+        "guestId": 5,
+        "checkInDate": "2023-08-15",
+        "checkOutDate": "2023-08-20",
+        "price": 700.00
+    },
+    {
+        "id": 6,
+        "roomId": 106,
+        "guestId": 6,
+        "checkInDate": "2023-08-01",
+        "checkOutDate": "2023-08-05",
+        "price": 750.00
+    },
+    {
+        "id": 7,
+        "roomId": 107,
+        "guestId": 7,
+        "checkInDate": "2023-08-05",
+        "checkOutDate": "2023-08-10",
+        "price": 800.00
+    },
+    {
+        "id": 8,
+        "roomId": 108,
+        "guestId": 8,
+        "checkInDate": "2023-08-10",
+        "checkOutDate": "2023-08-13",
+        "price": 300.00
+    },
+    {
+        "id": 9,
+        "roomId": 109,
+        "guestId": 9,
+        "checkInDate": "2023-08-13",
+        "checkOutDate": "2023-08-17",
+        "price": 800.00
+    },
+    {
+        "id": 10,
+        "roomId": 110,
+        "guestId": 10,
+        "checkInDate": "2023-08-18",
+        "checkOutDate": "2023-08-22",
+        "price": 1000.00
     }
 ]

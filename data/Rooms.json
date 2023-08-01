@@ -22,5 +22,61 @@
         "price_per_night": 250,
         "facilities": ["WiFi", "TV", "Air Conditioning", "Mini Bar", "Balcony"],
         "is_booked": false
+    },
+    {
+        "room_id": 104,
+        "type": "Standard",
+        "view": "Pool view",
+        "price_per_night": 110,
+        "facilities": ["WiFi", "TV", "Refrigerator"],
+        "is_booked": false
+    },
+    {
+        "room_id": 105,
+        "type": "Deluxe",
+        "view": "Mountain view",
+        "price_per_night": 160,
+        "facilities": ["WiFi", "TV", "Air Conditioning", "Safe"],
+        "is_booked": false
+    },
+    {
+        "room_id": 106,
+        "type": "Suite",
+        "view": "Beachfront",
+        "price_per_night": 270,
+        "facilities": ["WiFi", "TV", "Air Conditioning", "Mini Bar", "Jacuzzi", "Balcony"],
+        "is_booked": false
+    },
+    {
+        "room_id": 107,
+        "type": "Standard",
+        "view": "Street view",
+        "price_per_night": 80,
+        "facilities": ["WiFi", "TV"],
+        "is_booked": false
+    },
+    {
+        "room_id": 108,
+        "type": "Suite",
+        "view": "Harbor view",
+        "price_per_night": 260,
+        "facilities": ["WiFi", "TV", "Air Conditioning", "Mini Bar", "Balcony", "Dining Area"],
+        "is_booked": false
+    },
+    {
+        "room_id": 109,
+        "type": "Standard",
+        "view": "Courtyard view",
+        "price_per_night": 105,
+        "facilities": ["WiFi", "TV", "Coffee Maker"],
+        "is_booked": false
+    },
+    {
+        "room_id": 110,
+        "type": "Deluxe",
+        "view": "Rooftop view",
+        "price_per_night": 155,
+        "facilities": ["WiFi", "TV", "Air Conditioning", "Safe", "Recliner"],
+        "is_booked": false
     }
 ]

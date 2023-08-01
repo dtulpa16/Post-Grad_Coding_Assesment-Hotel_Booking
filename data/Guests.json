@@ -19,5 +19,54 @@
         "email": "robert@example.com",
         "phone": "+1234567892",
         "past_bookings": []
+    },
+    {
+        "guest_id": 4,
+        "name": "Emily Johnson",
+        "email": "emily@example.com",
+        "phone": "+1234567893",
+        "past_bookings": [102, 105]
+    },
+    {
+        "guest_id": 5,
+        "name": "Michael White",
+        "email": "michael@example.com",
+        "phone": "+1234567894",
+        "past_bookings": []
+    },
+    {
+        "guest_id": 6,
+        "name": "Sophia Williams",
+        "email": "sophia@example.com",
+        "phone": "+1234567895",
+        "past_bookings": [106]
+    },
+    {
+        "guest_id": 7,
+        "name": "William Taylor",
+        "email": "william@example.com",
+        "phone": "+1234567896",
+        "past_bookings": []
+    },
+    {
+        "guest_id": 8,
+        "name": "Olivia Jones",
+        "email": "olivia@example.com",
+        "phone": "+1234567897",
+        "past_bookings": [107, 108]
+    },
+    {
+        "guest_id": 9,
+        "name": "James Green",
+        "email": "james@example.com",
+        "phone": "+1234567898",
+        "past_bookings": []
+    },
+    {
+        "guest_id": 10,
+        "name": "Isabella Black",
+        "email": "isabella@example.com",
+        "phone": "+1234567899",
+        "past_bookings": [109]
     }
 ]
