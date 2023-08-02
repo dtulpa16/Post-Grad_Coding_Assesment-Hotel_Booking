@@ -20,7 +20,7 @@ This backend is designed to handle all operations associated with room managemen
    - An IDE of choice (e.g., Visual Studio Code).
 
 2. **Installation Steps**
-   - Clone the repository.
+- Clone the repository.
    ```bash
    git clone https://github.com/dtulpa16/Post-Grad_Coding_Assesment-Hotel_Booking.git
    
