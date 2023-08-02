@@ -63,7 +63,7 @@ This backend is designed to handle all operations associated with room managemen
   - `DELETE /api/bookings/:id`: Cancel a booking by its ID.
 
 
-## Data Storage
+## Data Structure
 
 1. **rooms.json**
    - Contains room data like room type, view, price per night, and availability status.
