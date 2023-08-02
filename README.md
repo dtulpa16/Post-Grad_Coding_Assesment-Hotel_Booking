@@ -26,7 +26,7 @@ This backend is designed to handle all operations associated with room managemen
    
 - Navigate to the backend directory.
   ```bash
-  cd backend
+  cd Post-Grad_Coding_Assesment-Hotel_Booking
 - Install the required packages.
   ```bash
   npm install
