@@ -22,11 +22,11 @@ This backend is designed to handle all operations associated with room managemen
 2. **Installation Steps**
 - Clone the repository.
    ```bash
-   git clone https://github.com/dtulpa16/Post-Grad_Coding_Assesment-Hotel_Booking.git
+   git clone https://github.com/dtulpa16/Post-Grad_Coding_Assessment-Hotel_Booking.git
    
 - Navigate to the backend directory.
   ```bash
-  cd Post-Grad_Coding_Assesment-Hotel_Booking
+  cd Post-Grad_Coding_Assessment-Hotel_Booking
 - Install the required packages.
   ```bash
   npm install
